@@ -1,0 +1,60 @@
+/* 
+全局加载系统:
+加载字体和文件
+
+字体系统:
+字体加载
+titile  60px
+second  50px
+words   20px
+
+color系统:
+红色 着重
+蓝色 下级内容
+绿色  可用内容
+*/
+
+/* 全局加载系统 */
+@font-face { 
+    font-family: title;
+    src: url(DingTalk-JinBuTi.woff);
+}
+@font-face {
+    font-family: word;
+    src: url(AlimamaShuHeiTi-Bold.woff);
+}
+@font-face {
+    font-family: second;
+    src: url(AlimamaDaoLiTi.woff);
+}
+
+/* 字体系统 */
+body{
+    text-align: center;
+}
+.title{
+    font-family: title;
+    font-size: 60px;
+}
+.second{
+    font-size: 50px;
+    font-family: second;
+}
+.words{
+    font-size: 30px;
+    font-family: word;
+}
+
+/* color 系统 */
+a{
+    text-decoration: none;
+}
+red{
+    color: red;
+}
+blue{
+    color: blue;
+}
+green{
+    color: green;
+}
